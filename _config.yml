@@ -34,10 +34,10 @@ course_info:
   room: BH 2444
   name: Lixia Zhang
   contact: lixia at cs.ucla.edu
-  office_hours: TBD
+  office_hours: Monday / 3pm-4pm and Wednesday / 6pm-7pm in Boelter 3713
 
   homeworks_due: Wednesday of the week following the assignment, 11pm
-  midterm: TBD
+  midterm: Wednesday November 2, 2016, 4pm-5:50pm
   
   final: Wednesday December 7, 2016, 11:30am-2:30pm
   final_room: TBD
@@ -45,15 +45,15 @@ course_info:
   sections:
     - times: Friday / 2:00pm-3:50pm
       room: ROYCE 164
-      name: Spyros Mastorakis
-      contact: mastorakis at cs.ucla.edu
+      name: Manika Mittal
+      contact: manika.mittal at cs.ucla.edu
       office_hours: TBD
 
     - times: Friday / 4:00pm-5:50pm
       room: BH 5436
       name: Haitao Zhang
       contact: zhtaoxiang at gmail dot com
-      office_hours: TBD
+      office_hours: Wednesday / 9:00am-11:00am
     
   projects:
     - deadline: TBD
