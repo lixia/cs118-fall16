@@ -36,7 +36,7 @@ course_info:
   contact: lixia at cs.ucla.edu
   office_hours: Monday / 3pm-4pm and Wednesday / 6pm-7pm in Boelter 3713
 
-  homeworks_due: Wednesday of the week following the assignment, 11pm
+  homeworks_due: Wednesday of the week following the assignment, 5pm
   midterm: Wednesday November 2, 2016, 4pm-5:50pm
   
   final: Wednesday December 7, 2016, 11:30am-2:30pm
@@ -56,5 +56,5 @@ course_info:
       office_hours: Wednesday / 9-11am in Boelter 2432
     
   projects:
-    - deadline: TBD
+    - deadline: Sunday / 11:00pm
     - deadline: TBD
