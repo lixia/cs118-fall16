@@ -170,7 +170,7 @@ You can easily create an image in your favourite virtualization engine (VirtualB
 
 - Set up project and VM instance
 
-  * Clone project template
+  * Clone project template (If you are not familiar with `git`, please google it or ask TAs for help)
 
         git clone https://github.com/cawka/spring16-cs118-project1 ~/cs118-proj1
         cd ~/cs118-proj1
@@ -187,7 +187,7 @@ You can easily create an image in your favourite virtualization engine (VirtualB
 
 - Work on your project
 
-  All files in `~/cs118-proj1` folder on the host machine will be automatically synchronized with `/vagrant` folder on the virtual machine.  For example, to compile your code, you can run the following commands:
+  All files in `~/cs118-proj1` folder on the host machine will be automatically synchronized with `/vagrant` folder on the virtual machine.  For example, to compile your code, you can run the following commands: (If you are not familiar with `make` and `Makefile`, please google them or ask TAs for help)
 
         vagrant ssh
         cd /vagrant
