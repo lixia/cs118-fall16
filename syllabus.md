@@ -55,7 +55,7 @@ This course provides an introduction to fundamental concepts in the design and i
   </table>
 </div>
 
-- Weekly homework will be assigned after the 2nd lecture every week and must be submitted by 11:00pm next Thursday.
+- Weekly homework will be assigned after the 2nd lecture every week and must be submitted by 5:00pm next Wednesday.
 - Midterm Exam
 - Final Exam
 - Two programming projects
@@ -73,9 +73,9 @@ You are all encouraged to visit us during office hours or email us. Class partic
 
 - Programming projects can be done in groups of 1-3 students
 
-- No late homework or project submission.  Homeworks and projects are submitted electronically through [CCLE](https://ccle.ucla.edu/course/view/16S-COMSCI118-1).
+- No late homework or project submission.  Homeworks can be handwritten, while projects must be submitted electronically through [CCLE](https://ccle.ucla.edu/course/view/16S-COMSCI118-1).
 
-  * Homeworks should be submitted as `PDF` file. No handwritten and then scanned submissions! Type your homework answers in Word, Latex, or PDF directly, otherwise you will get no credit.
+  * Homeworks can be handwritten or typed. Submit `hardcopies` in BH 2432 Mailbox A14.  No electronic submissions!
   * Projects should be submitted as `.tar.gz` archive, see project descriptions for more detail.
 
 - No make-up midterm or final examinations.
