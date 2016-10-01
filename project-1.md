@@ -32,7 +32,7 @@ otherwise returning HTTP response with the corresponding error code.
 After retrieving the response from the Web server, the client saves the retrieved file in the local file system.
 
 The basic part of this project only requires you to implement HTTP 1.0: the client and server will talk to each other through **non-persistent** connections.
-If you client and/or server supports HTTP 1.1, you will get bonus points, see details in [Grading](#http1.1)).
+If your client and/or server supports HTTP 1.1, you will get bonus points, see details in [Grading](#http1.1)).
 
 ## How to approach the project
 
@@ -230,7 +230,7 @@ Please make sure:
 1. your code can compile
 2. no unnecessary files in the package.
 
-Otherwise, your will not get any credit.
+Otherwise, you will not get any credit.
    
 ## Grading
 
