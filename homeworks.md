@@ -3,4 +3,4 @@ layout: page
 title: Homeworks
 ---
 
-Assigned and must be submitted through [CCLE](https://ccle.ucla.edu)
+Homeworks will be assigned through [CCLE](https://ccle.ucla.edu). `Hardcopies` of the homework (handwritten or typed) must be dropped off in BH 2432 Mailbox A14.
