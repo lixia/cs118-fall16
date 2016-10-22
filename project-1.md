@@ -212,9 +212,16 @@ You can easily create an image in your favourite virtualization engine (VirtualB
 
 ## Submission
 
+Note: ONE AND ONLY ONE team member needs to submit the project for the whole team. 
 To submit your project, you need to prepare:
 
-1. All your source code and Makefile (no binaries) as `.tar.gz` archive.
+1. A `.tar.gz` archive named `<UID1-UID2-UID3>.tar.gz`, which MUST have the following files: 
+   * All source code (all hpp and cpp files)
+   * Makefile (no binaries): We will run the `make` command and all the necessary binaries MUST be generated.
+   * The client binary MUST be named `web-client`
+   * The server binary MUST be named `web-server`
+   * For bonus points, you must submit BOTH versions of your client and server code i.e. client and server code for HTTP 1.0 AND client and server code for HTTP 1.1. In this case the HTTP 1.0 client and server binaries MUST be named as above while HTTP 1.1 client and server binaries MUST be named `web-client-1.1` and `web-server-1.1` respectively
+   * There should be NO sub-directories  
 
 2. A PDF project report that describes
    * the high level design of your server and client;
@@ -229,8 +236,9 @@ Please make sure:
 
 1. your code can compile
 2. no unnecessary files in the package.
+3. you `strictly` follow the above rules 
 
-Otherwise, you will not get any credit.
+`Otherwise, you will not get any credit.`
    
 ## Grading
 
