@@ -188,9 +188,9 @@ are four types of output messages and should follow the formats below.
     * Maximum packet length (including all your headers): **1032 bytes**
     * Maximum sequence number: **30720 bytes**
     * Initial and minimum congestion window size: **1024 byte**
-    * Initial slow start threshold: **<del>30720</del> 15360 bytes**
+    * Initial slow start threshold: **15360 bytes**
     * Retransmission time out value: **500 ms**
-    * The basic client's receiver window can be always **<del>30720</del> 15360 bytes**, but the server should be able to properly handle cases when the window is reduced.
+    * The basic client's receiver window can be always **15360 bytes**, but the server should be able to properly handle cases when the window is reduced.
 
 - Simple TCP header format
 
