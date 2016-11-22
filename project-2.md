@@ -220,7 +220,7 @@ are four types of output messages and should follow the formats below.
 
 - The client should save file to `received.data` in the current working directory.
 
-- After server finishes transmission, it should terminate the connection using FIN/FIN-ACK procedure.  The client should implement TIME-WAIT mechanism, e.g., using 2*RTO as a waiting time.
+- After server finishes transmission, it should terminate the connection using FIN/FIN-ACK procedure.  The server should implement TIME-WAIT mechanism, e.g., using 2*RTO as a waiting time.
 
 ## Environment Setup
 
