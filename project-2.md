@@ -99,12 +99,14 @@ Your server has to adjust the congestion window size depending on the link statu
 
 - *Slow start*: the congestion window size will be doubled until it meets the slow start threshold value (`ssthresh`).
 - *Congestion Avoidance*: the congestion window size added by one if the congestion window size is larger than `ssthresh`.
-- If a packet is lost as detected by the retransmission timeout
+- If a packet is lost (as detected by the retransmission timeout or 3 duplicate ACKs) 
 
   * The server sets `ssthresh` to max(1/2 of current congestion window, 1024) and
   * set congestion window to 1024 bytes
 
-In other words, after timeout, the sender adjusts the value of `sshthresh` and moves back to *Slow Start* stage.  As soon as the value of `cwnd` reaches `sshthresh`, it switches to *Congestion Avoidance*.  As soon as packet lost, the server again adjusts `sshthresh`, set `cwnd` to 1, and restart from *Congestion Avoidance* stage.
+In other words, after packet loss, the sender adjusts the value of `sshthresh` and moves back to *Slow Start* stage.  As soon as the value of `cwnd` reaches `sshthresh`, it switches to *Congestion Avoidance*. 
+
+- *Fast Retransmit*: If the sender received 3 duplicate ACKs, it must perform fast retransmit. 
 
 When you done with the basic project, you can continue with implementing TCP Reno and/or TCP NewReno congestion window adjustment logic for extra credit.
 
@@ -150,6 +152,7 @@ are four types of output messages and should follow the formats below.
 
         Example:
 
+            Receiving packet 0
             Receiving packet 5096
             Receiving packet 6020
 
@@ -159,7 +162,7 @@ are four types of output messages and should follow the formats below.
 
         Example:
 
-            Sending packet 5095 SYN
+            Sending packet 0    SYN
             Sending packet 5096
             Sending packet 6000
             Sending packet 6020
@@ -172,6 +175,7 @@ are four types of output messages and should follow the formats below.
 
         Example:
 
+            Receiving packet 5095
             Receiving packet 5096
             Receiving packet 6020
 
