@@ -41,9 +41,9 @@ Instead, you can simply implement a single threaded server that starts data tran
 
 - Command-line specification for client and server program:
 
-        ./client SERVER-HOST-OR-IP PORT-NUMBER
+        ./simple-tcp-client SERVER-HOST-OR-IP PORT-NUMBER
 
-        ./server PORT-NUMBER FILE-NAME
+        ./simple-tcp-server PORT-NUMBER FILE-NAME
 
 - You should use the packet format defined later in the project description.
 
