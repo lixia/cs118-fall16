@@ -317,8 +317,6 @@ To submit your project, you need to prepare:
    * additional instructions to build your project (if your project uses some other libraries);
    * how you tested your code and why.
    * the contribution of each team member (up to 3 members in one team) and their UID
-
-Put all these above into a package and submit to CCLE.
    
 Please make sure:
 
